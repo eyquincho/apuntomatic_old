@@ -1,0 +1,72 @@
+[05-Oct-2015 05:13:21 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 22
+[05-Oct-2015 05:13:21 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 12
+[05-Oct-2015 05:13:23 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 22
+[05-Oct-2015 05:13:23 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 12
+[22-Oct-2015 04:04:33 America/Chicago] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 22
+[22-Oct-2015 04:04:33 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home4/koiora/public_html/apuntomatic/includes/comprobar.php on line 15
+[22-Oct-2015 04:04:33 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home4/koiora/public_html/apuntomatic/includes/comprobar.php on line 16
+[22-Oct-2015 04:04:33 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home4/koiora/public_html/apuntomatic/includes/comprobar.php on line 19
+[22-Oct-2015 04:04:33 America/Chicago] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, null given in /home4/koiora/public_html/apuntomatic/includes/comprobar.php on line 21
+[22-Oct-2015 04:04:33 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home4/koiora/public_html/apuntomatic/includes/comprobar.php on line 23
+[18-Nov-2015 05:41:05 America/Chicago] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 12
+[01-Dec-2015 16:14:05 America/Chicago] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 12
+[15-Dec-2015 04:43:18 America/Chicago] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 22
+[15-Dec-2015 04:43:21 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home4/koiora/public_html/apuntomatic/includes/comprobar.php on line 15
+[15-Dec-2015 04:43:21 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home4/koiora/public_html/apuntomatic/includes/comprobar.php on line 16
+[15-Dec-2015 04:43:21 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home4/koiora/public_html/apuntomatic/includes/comprobar.php on line 19
+[15-Dec-2015 04:43:21 America/Chicago] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, null given in /home4/koiora/public_html/apuntomatic/includes/comprobar.php on line 21
+[15-Dec-2015 04:43:21 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home4/koiora/public_html/apuntomatic/includes/comprobar.php on line 23
+[17-Dec-2015 16:11:38 America/Chicago] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 22
+[17-Dec-2015 16:11:40 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home4/koiora/public_html/apuntomatic/includes/comprobar.php on line 15
+[17-Dec-2015 16:11:40 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home4/koiora/public_html/apuntomatic/includes/comprobar.php on line 16
+[17-Dec-2015 16:11:40 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home4/koiora/public_html/apuntomatic/includes/comprobar.php on line 19
+[17-Dec-2015 16:11:40 America/Chicago] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, null given in /home4/koiora/public_html/apuntomatic/includes/comprobar.php on line 21
+[17-Dec-2015 16:11:40 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home4/koiora/public_html/apuntomatic/includes/comprobar.php on line 23
+[14-Jan-2016 12:04:20 America/Chicago] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 22
+[14-Jan-2016 12:04:21 America/Chicago] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 12
+[25-Feb-2016 05:31:10 America/Chicago] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 23
+[25-Feb-2016 05:31:11 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home4/koiora/public_html/apuntomatic/includes/comprobar.php on line 15
+[25-Feb-2016 05:31:11 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home4/koiora/public_html/apuntomatic/includes/comprobar.php on line 16
+[25-Feb-2016 05:31:11 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home4/koiora/public_html/apuntomatic/includes/comprobar.php on line 19
+[25-Feb-2016 05:31:11 America/Chicago] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, null given in /home4/koiora/public_html/apuntomatic/includes/comprobar.php on line 21
+[25-Feb-2016 05:31:11 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home4/koiora/public_html/apuntomatic/includes/comprobar.php on line 23
+[06-May-2016 13:55:12 America/Chicago] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 23
+[06-May-2016 13:55:12 America/Chicago] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 12
+[06-May-2016 13:55:54 America/Chicago] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 23
+[06-May-2016 13:55:54 America/Chicago] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 12
+[18-May-2016 04:02:55 America/Chicago] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 12
+[18-May-2016 04:03:44 America/Chicago] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 23
+[18-May-2016 04:03:44 America/Chicago] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 12
+[18-May-2016 04:04:11 America/Chicago] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 23
+[18-May-2016 04:04:11 America/Chicago] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 12
+[18-May-2016 04:04:21 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 23
+[18-May-2016 04:04:21 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home4/koiora/public_html/apuntomatic/includes/comprobar.php on line 15
+[18-May-2016 04:04:21 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home4/koiora/public_html/apuntomatic/includes/comprobar.php on line 16
+[18-May-2016 04:04:21 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home4/koiora/public_html/apuntomatic/includes/comprobar.php on line 19
+[18-May-2016 04:04:21 America/Chicago] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, null given in /home4/koiora/public_html/apuntomatic/includes/comprobar.php on line 21
+[18-May-2016 04:04:21 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home4/koiora/public_html/apuntomatic/includes/comprobar.php on line 23
+[31-Jan-2018 06:30:24 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 23
+[31-Jan-2018 06:30:25 America/Chicago] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 12
+[31-Jan-2018 06:38:28 America/Chicago] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 23
+[31-Jan-2018 06:38:28 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home4/koiora/public_html/apuntomatic/includes/seleccionar_proceso.php on line 31
+[31-Jan-2018 06:38:28 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home4/koiora/public_html/apuntomatic/includes/seleccionar_proceso.php on line 32
+[31-Jan-2018 06:38:28 America/Chicago] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home4/koiora/public_html/apuntomatic/includes/seleccionar_proceso.php on line 32
+[13-Mar-2018 08:32:54 America/Chicago] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 12
+[13-Mar-2018 12:52:48 America/Chicago] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 23
+[13-Mar-2018 12:52:49 America/Chicago] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 12
+[13-Mar-2018 12:53:05 America/Chicago] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 23
+[13-Mar-2018 12:53:05 America/Chicago] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 12
+[13-Mar-2018 12:53:16 America/Chicago] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 23
+[13-Mar-2018 12:53:16 America/Chicago] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 12
+[13-Mar-2018 12:54:43 America/Chicago] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 23
+[13-Mar-2018 12:54:44 America/Chicago] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 12
+[13-Mar-2018 13:23:16 America/Chicago] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 23
+[13-Mar-2018 13:23:17 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home4/koiora/public_html/apuntomatic/includes/comprobar.php on line 15
+[13-Mar-2018 13:23:17 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home4/koiora/public_html/apuntomatic/includes/comprobar.php on line 16
+[13-Mar-2018 13:23:17 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home4/koiora/public_html/apuntomatic/includes/comprobar.php on line 19
+[13-Mar-2018 13:23:17 America/Chicago] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, null given in /home4/koiora/public_html/apuntomatic/includes/comprobar.php on line 21
+[13-Mar-2018 13:23:17 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home4/koiora/public_html/apuntomatic/includes/comprobar.php on line 23
+[19-Mar-2018 12:06:28 America/Chicago] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home4/koiora/public_html/apuntomatic/includes/conexionDB.php on line 23
+[19-Mar-2018 12:06:29 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home4/koiora/public_html/apuntomatic/includes/seleccionar_proceso.php on line 31
+[19-Mar-2018 12:06:29 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home4/koiora/public_html/apuntomatic/includes/seleccionar_proceso.php on line 32
+[19-Mar-2018 12:06:29 America/Chicago] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home4/koiora/public_html/apuntomatic/includes/seleccionar_proceso.php on line 32
