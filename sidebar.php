@@ -14,7 +14,7 @@
 						if($_SESSION['admin']==1){
 						echo "
 						<li>
-                        <a id=\"sidebar-perfil\" href=\"perfil.php?uid=".$id_sesion."\"><i class=\fa fa-user fa-3x\"></i> Perfil</a>
+                        <a id=\"sidebar-perfil\" href=\"perfil.php?uid=".$id_sesion."\"><i class=\"fa fa-user fa-3x\"></i> Perfil</a>
 						</li>
 						";}
 							else {}
