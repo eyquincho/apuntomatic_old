@@ -21,9 +21,6 @@ function mostrar_archivos() {
 		echo '<td><center>' . $pet_asignatura->opcion . '</center></td>';
 		echo '<td><center><a href="'. $seleccionada->file .'" onclick="window.open(\'descargar.php?id='. $seleccionada->id .'\')" target="_blank"><i class="fa fa-chevron-circle-down fa-2x"></i></a></center></td>';
 		echo '<td><center>' . $seleccionada->descargas . '</center></td>';
-		echo '<td>#</td>';
-		echo '<td>#</td>';
-		echo '<td>#</td>';
 		echo '</tr>';  
 	}}
 ?>
@@ -104,8 +101,8 @@ function mostrar_archivos() {
     	<div class="col-sm-9">
           
           <ul class="nav nav-tabs" id="myTab">
-            <li class="active"><a href="#actividad" data-toggle="tab">Atividad</a></li>
-            <li><a href="#settings" data-toggle="tab">Settings</a></li>
+            <li class="active"><a href="#actividad" data-toggle="tab">Actividad</a></li>
+            <li><a href="#settings" data-toggle="tab">Configuración</a></li>
           </ul>
               
           <div class="tab-content">
@@ -116,11 +113,8 @@ function mostrar_archivos() {
                     <tr>
                       <th>Nombre</th>
                       <th>Asignatura</th>
-                      <th>Descargar</th>
-                      <th>#descargas</th>
-                      <th>Label </th>
-                      <th>Label </th>
-                      <th>Label </th>
+                      <th>Enlace</th>
+                      <th>Descargas</th>
                     </tr>
                   </thead>
                   <tbody id="items">
@@ -135,58 +129,9 @@ function mostrar_archivos() {
                 </div>
               </div><!--/table-resp-->
               
-              <hr>
-              
-              <h4>Recent Activity</h4>
-              
-              <div class="table-responsive">
-                <table class="table table-hover">
-                  
-                  <tbody>
-                    <tr>
-                      <td><i class="pull-right fa fa-edit"></i> Today, 1:00 - Jeff Manzi liked your post.</td>
-                    </tr>
-                    <tr>
-                      <td><i class="pull-right fa fa-edit"></i> Today, 12:23 - Mark Friendo liked and shared your post.</td>
-                    </tr>
-                    <tr>
-                      <td><i class="pull-right fa fa-edit"></i> Today, 12:20 - You posted a new blog entry title "Why social media is".</td>
-                    </tr>
-                    <tr>
-                      <td><i class="pull-right fa fa-edit"></i> Yesterday - Karen P. liked your post.</td>
-                    </tr>
-                    <tr>
-                      <td><i class="pull-right fa fa-edit"></i> 2 Days Ago - Philip W. liked your post.</td>
-                    </tr>
-                    <tr>
-                      <td><i class="pull-right fa fa-edit"></i> 2 Days Ago - Jeff Manzi liked your post.</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              
-             </div><!--/tab-pane-->
-             <div class="tab-pane" id="messages">
-               
-               <h2></h2>
-               
-               <ul class="list-group">
-                  <li class="list-group-item text-muted">Inbox</li>
-                  <li class="list-group-item text-right"><a href="#" class="pull-left">Here is your a link to the latest summary report from the..</a> 2.13.2014</li>
-                  <li class="list-group-item text-right"><a href="#" class="pull-left">Hi Joe, There has been a request on your account since that was..</a> 2.11.2014</li>
-                  <li class="list-group-item text-right"><a href="#" class="pull-left">Nullam sapien massaortor. A lobortis vitae, condimentum justo...</a> 2.11.2014</li>
-                  <li class="list-group-item text-right"><a href="#" class="pull-left">Thllam sapien massaortor. A lobortis vitae, condimentum justo...</a> 2.11.2014</li>
-                  <li class="list-group-item text-right"><a href="#" class="pull-left">Wesm sapien massaortor. A lobortis vitae, condimentum justo...</a> 2.11.2014</li>
-                  <li class="list-group-item text-right"><a href="#" class="pull-left">For therepien massaortor. A lobortis vitae, condimentum justo...</a> 2.11.2014</li>
-                  <li class="list-group-item text-right"><a href="#" class="pull-left">Also we, havesapien massaortor. A lobortis vitae, condimentum justo...</a> 2.11.2014</li>
-                  <li class="list-group-item text-right"><a href="#" class="pull-left">Swedish chef is assaortor. A lobortis vitae, condimentum justo...</a> 2.11.2014</li>
-                  
-                </ul> 
-               
+              <hr>             
              </div><!--/tab-pane-->
              <div class="tab-pane" id="settings">
-            		
-               	
                   <hr>
                   <form class="form" action="##" method="post" id="registrationForm">
                       <div class="form-group">
