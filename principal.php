@@ -87,7 +87,6 @@ function mostrar_lista() {
                 </div>
                  <!-- /. ROW  -->
                 <hr />
-				<div class="alert alert-info" role="alert">Ahora Apuntomatic te permite subir ediciones de archivos existentes. <a href="http://bit.ly/1Qnd3XF" target="_blank">Leer más.</a></div>
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="panel back-dash">
@@ -124,8 +123,8 @@ function mostrar_lista() {
                     </div>
 					<div class="col-md-3 col-sm-12 col-xs-12">
                         <div class="panel back-dash">
-                               <i class="fa fa-hand-o-down fa-3x"></i><strong> &nbsp; PUBLICIDAD</strong>                             
-							<a href="http://duvi.uvigo.es/index.php?option=com_content&task=view&id=11352&Itemid=46" target="_blank"><img src="img/publi/logordlmarxe.jpg" style="width:100%;"/></a>
+                            <i class="fa fa-hand-o-down fa-3x"></i><strong> &nbsp; PUBLICIDAD</strong>                             
+							<a href="#" target="_blank"><img src="img/square/nope.jpg" style="width:100%;"/></a>
 							<p class="text-muted">Envia un email a hola@apuntomatic.com y haz que todo el mundo lo vea.</p>
                         </div>
                     </div> 	
