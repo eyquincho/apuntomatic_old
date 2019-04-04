@@ -1,15 +1,14 @@
-<section class="content-section video-section hidden-xs hidden-sm">
+<section class="content-section <!--video-section hidden-xs hidden-sm-->">
 	<!--<div class="col-lg-12"><center>
 			<script type="text/javascript">
 				imagen = new Array();
 				imagen[0] = '<img src="img/publi/partido101.jpg" height="700px">';
 				imagen[1] = '<img src="img/publi/brieffindor.jpg" height="700px">';
-
 				aleatorio = Math.random() * (imagen.length);
 				aleatorio = Math.floor(aleatorio);
 				document.write(imagen[aleatorio]);
 			</script>
-	</center></div>-->
+	</center></div>
 	
 		<div class="pattern-overlay">
 			<a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=UfUu0F2EukI',containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1}">bg</a>
@@ -24,10 +23,45 @@
 					</div>
 				</div>
 			</div>
-		</div> 
+		</div> -->
+	<!-- Espacio elecciones FCSC -->
+	<style>
+		.muro {
+			background-color: #805940;
+			background-image: url("img/brick-wall.png");
+			min-height: 100%;
+			height: 100%;
+		
+		}
+		.poster {
+			width: 100%;
+		}
+		.fila {
+		margin-top: 10%;
+		margin-bottom: 10%;
+		}
+		
+	</style>
+	<div class="row muro">
+	  <div class="container fila">
+		  <div class="col-md-3">
+			  <a href="#" target="_blank"><img src="img/publi/poster.png" class="poster"></a>
+		  </div>
+		  <div class="col-md-3">
+			  <a href="#" target="_blank"><img src="img/publi/poster.png" class="poster"></a>
+		  </div>
+		  <div class="col-md-3">
+			  <a href="#" target="_blank"><img src="img/publi/poster.png" class="poster"></a>
+		  </div>
+		  <div class="col-md-3">
+			  <a href="#" target="_blank"><img src="img/publi/poster.png" class="poster"></a>
+		  </div>
+	  </div>
+	</div>   
+	<!-- Fin espacio elecciones FCSC -->
 	
 </section>
-<section class="hidden-md hidden-lg">
+<!-- <section class="hidden-md hidden-lg">
 	<div class="container">
       <div class="row">
         <div id="hola-movil" class="col-lg-12">
@@ -35,4 +69,4 @@
 	   </div>
       </div>
     </div>
-</section>
+</section>-->
