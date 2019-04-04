@@ -17,6 +17,7 @@
 				echo "<option value='".$registro[0]."'>".$registro[1]."</option>";
 			}
 		}
+		function tramitarsubida () {
 		if(isset($_FILES['archivo'])){
 		
  		$uploaddir = "documentos/";
@@ -53,23 +54,21 @@
 		$asignatura = $_POST['asignaturas'];
 		$descripcion = urlencode($_POST['descripcion']);
 		$size = $_FILES["archivo"]["size"] / 1024;
-		if(isset($_POST['anon']))
-			$anonimo = true;
-		else
-			$anonimo = false;
+		if(isset($_POST['anon'])){
+		$anonimo = true;}
+		else {
+		$anonimo = false;}
 		if(isset($_POST['boton']) && $error==UPLOAD_ERR_OK) { 
 		   $subido = copy($_FILES['archivo']['tmp_name'], $uploadfile); 
 		   $check = $subido && !empty($titulo) && !empty($asignatura);
-		   
-		}
-	   	if($check) { 
-			$qry = "INSERT INTO ap_documentos ( usuario_id, asignatura_id, creado_ts, file, size, nombre, descripcion, tipo, anonimo ) VALUES
+		   $qry = "INSERT INTO ap_documentos ( usuario_id, asignatura_id, creado_ts, file, size, nombre, descripcion, tipo, anonimo ) VALUES
 			('$user_id','$asignatura', CURDATE(), '$uploadfile','$size','$titulo','$descripcion', '$tipo', '$anonimo')";
 			mysqli_query($_SESSION['con'], $qry);
 			$update_user = "UPDATE ap_users SET user_files=(user_files + 1) WHERE id='$user_id'";
 			mysqli_query($_SESSION['con'], $update_user);
 			echo "<div class=\"alert alert-success\" role=\"alert\">Archivo subido correctamente</div>";  }
-		}else {echo "<div class=\"alert alert-success\" role=\"alert\">Ha ocurrido un error</div>";}
+		else {echo "<div class=\"alert alert-success\" role=\"alert\">Ha ocurrido un error al subir el archivo</div>";}
+		}}
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -110,7 +109,9 @@
 		?>
 		<?php include 'sidebar.php'; ?>
 		<div id="page-wrapper" >
-            <div id="page-inner">
+		
+        <div id="page-inner">
+		<?php tramitarsubida(); ?>
 		<h2 style="color:#5b5b5f">Subir documentos</h2>
 				<form class="form center-block" id="form1" action="subir.php" enctype="multipart/form-data" method="post" name="form">
 					<div class="col-md-6 col-sm-6 col-xs-9">
