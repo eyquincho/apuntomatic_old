@@ -12,6 +12,7 @@ include "recuperar.php";
 			<a data-toggle="modal" data-target="#contacto">Contacto</a><br>
 			<a data-toggle="modal" data-target="#condiciones">Condiciones de uso</a><br>
 			<a data-toggle="modal" data-target="#cookies">Uso de cookies</a><br>
+			<a href="https://github.com/eyquincho/apuntomatic" target="_blank">GitHub</a>
 		</div>
 	</div>		
 </div>	

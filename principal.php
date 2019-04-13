@@ -123,6 +123,7 @@ function mostrar_lista() {
                     </div>
 					<div class="col-md-3 col-sm-12 col-xs-12">
                         <div class="panel back-dash">
+<<<<<<< HEAD
                             <i class="fa fa-hand-o-down fa-3x"></i><strong> &nbsp; PUBLICIDAD</strong>
 							<script type="text/javascript">
 								imagen = new Array();
@@ -131,6 +132,10 @@ function mostrar_lista() {
 								aleatorio = Math.floor(aleatorio);
 								document.write(imagen[aleatorio]);
 							</script>
+=======
+                            <i class="fa fa-hand-o-down fa-3x"></i><strong> &nbsp; PUBLICIDAD</strong>                             
+							<a href="#" target="_blank"><img src="img/square/nope.jpg" style="width:100%;"/></a>
+>>>>>>> master
 							<p class="text-muted">Envia un email a hola@apuntomatic.com y haz que todo el mundo lo vea.</p>
                         </div>
                     </div> 	

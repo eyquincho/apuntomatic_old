@@ -1,4 +1,5 @@
 <section class="content-section <!--video-section hidden-xs hidden-sm-->">
+<<<<<<< HEAD
 	<!-- Pared posters -->
 <?php if (isset($_GET['log_er'])) {
 	echo "<div class=\"alert alert-warning\" role=\"alert\" style=\"margin-top:20px;\">Datos de inicio de sesi&oacute;n err&oacute;neos. <a href='javascript:history.back();'>Reintentar</a> o <a data-toggle=\"modal\" data-target=\"#recuperar\">Recupera tu contraseña</a></div>";
@@ -20,6 +21,34 @@
 	}
 	else {}
 ?>
+=======
+	<!--<div class="col-lg-12"><center>
+			<script type="text/javascript">
+				imagen = new Array();
+				imagen[0] = '<img src="img/publi/partido101.jpg" height="700px">';
+				imagen[1] = '<img src="img/publi/brieffindor.jpg" height="700px">';
+				aleatorio = Math.random() * (imagen.length);
+				aleatorio = Math.floor(aleatorio);
+				document.write(imagen[aleatorio]);
+			</script>
+	</center></div>
+	
+		<div class="pattern-overlay">
+			<a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=UfUu0F2EukI',containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1}">bg</a>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12"> 
+						<h3>Descubre el último videoclip de <strong>Los Tónikash</strong></h3>
+						<h2>
+							<a href="https://www.youtube.com/watch?v=opbDwyFbsq4" target="_blank"><i class="fa fa-youtube-play"></i></a>
+							<a href="https://www.facebook.com/lostonikash" target="_blank"><i class="fa fa-facebook"></i></a>
+						</h2>
+					</div>
+				</div>
+			</div>
+		</div> -->
+	<!-- Espacio elecciones FCSC -->
+>>>>>>> master
 	<style>
 		.muro {
 			background-color: #805940;
@@ -53,7 +82,11 @@
 		  </div>
 	  </div>
 	</div>   
+<<<<<<< HEAD
 	<!-- Fin pared posters -->
+=======
+	<!-- Fin espacio elecciones FCSC -->
+>>>>>>> master
 	
 </section>
 <!-- <section class="hidden-md hidden-lg">
