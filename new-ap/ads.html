@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Apuntomatic - Subir</title>
+  <title>Apuntomatic</title>
 
   <!-- Llamadas CSS -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -139,95 +139,122 @@
 
         <!-- Begin Page Content -->
         <div class="container-fluid">
-		<form class="form">
+
+
           <!-- Content Row -->
+
           <div class="row">
-            <div class="col-lg-4">
-              <div class="card shadow mb-4">
-                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h6 class="m-0 font-weight-bold text-primary">Selecciona una titulación</h6>
-                </div>
-                <!-- Card Body -->
-                <div class="card-body">
-				 
-					<label class="sr-only" for="Select1">Universidad</label>
-					<select class="custom-select col-lg-12" id="Select1">
-						<option selected>Universidad</option>
-						<option value="1">One</option>
-						<option value="2">Two</option>
-						<option value="3">Three</option>
-					</select>
-					<label class="sr-only" for="Select2">Carrera</label>
-					<select class="custom-select col-lg-12" id="Select2">
-						<option selected>Titulación</option>
-						<option value="1">One</option>
-						<option value="2">Two</option>
-						<option value="3">Three</option>
-					</select>
-					<label class="sr-only" for="Select3">Curso</label>
-					<select class="custom-select col-lg-12" id="Select3">
-						<option selected>Curso</option>
-						<option value="1">One</option>
-						<option value="2">Two</option>
-						<option value="3">Three</option>
-					</select>
-					<label class="sr-only" for="Select4">Asignatura</label>
-					<select class="custom-select col-lg-12" id="Select4">
-						<option selected>Asignatura</option>
-						<option value="1">One</option>
-						<option value="2">Two</option>
-						<option value="3">Three</option>
-					</select>
-				  
-                </div>
-              </div>
-            </div>
+
             <!-- Area Chart -->
-            <div class="col-lg-8">
+            <div class="col-xl-8 col-lg-7">
               <div class="card shadow mb-4">
                 <!-- Card Header - Dropdown -->
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h6 class="m-0 font-weight-bold text-primary">Documento</h6>
+                  <h6 class="m-0 font-weight-bold text-primary">Última actividad </h6>
                 </div>
                 <!-- Card Body -->
                 <div class="card-body">
-					<div class="form-group">
-						<label>Título</label>
-						<input type="text" class="form-control input-lg" name="titulo"  placeholder="Titulo" required>
-					</div>
-					<div class="form-group">
-					<label>Descripción</label>
-					<textarea class="form-control" rows="3" id="descripcion" name="descripcion"></textarea>
-					</div>
-					<div class="custom-file">
-					  <input type="file" class="custom-file-input" id="customFile" required>
-					  <label class="custom-file-label" for="customFile">Seleccionar archivo</label>
-					</div>
-					<div class="form-group custom-control custom-checkbox">
-						<input type="checkbox" class="custom-control-input" id="customCheck1">
-						<label class="custom-control-label" for="customCheck1">Subir de forma anónima</label>
-					</div>
-					<button type="submit" class="btn btn-primary">Enviar</button>
+                  <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                  <thead>
+                    <tr>
+                      <th>Doc</th>
+                      <th>Usuario</th>
+                      <th>Documento</th>
+                      <th>Asignatura</th>
+                      <th>Titulación</th>
+                      <th>Enlace</th>
+                    </tr>
+                  </thead>
+                  <tfoot>
+                    <tr>
+                      <th>Doc</th>
+                      <th>Usuario</th>
+                      <th>Documento</th>
+                      <th>Asignatura</th>
+                      <th>Titulación</th>
+                      <th>Enlace</th>
+                    </tr>
+                  </tfoot>
+                  <tbody>
+                    <tr>
+                      <td>Tiger Nixon</td>
+                      <td>System Architect</td>
+                      <td>Edinburgh</td>
+                      <td>61</td>
+                      <td>2011/04/25</td>
+                      <td><center><i class="fas fa-file-download"></i> 14 Mb</center></td>
+                    </tr>
+                    <tr>
+                      <td>Garrett Winters</td>
+                      <td>Accountant</td>
+                      <td>Tokyo</td>
+                      <td>63</td>
+                      <td>2011/07/25</td>
+                      <td><center><i class="fas fa-file-download"></i> 14 Mb</center></td>
+                    </tr>
+                    <tr>
+                      <td>Ashton Cox</td>
+                      <td>Junior Technical Author</td>
+                      <td>San Francisco</td>
+                      <td>66</td>
+                      <td>2009/01/12</td>
+                      <td><center><i class="fas fa-file-download"></i> 14 Mb</center></td>
+                    </tr>
+                    <tr>
+                      <td>Cedric Kelly</td>
+                      <td>Senior Javascript Developer</td>
+                      <td>Edinburgh</td>
+                      <td>22</td>
+                      <td>2012/03/29</td>
+                      <td><center><i class="fas fa-file-download"></i> 14 Mb</center></td>
+                    </tr>
+                    <tr>
+                      <td>Airi Satou</td>
+                      <td>Accountant</td>
+                      <td>Tokyo</td>
+                      <td>33</td>
+                      <td>2008/11/28</td>
+                      <td><center><i class="fas fa-file-download"></i> 14 Mb</center></td>
+                    </tr>
+                    <tr>
+                      <td>Brielle Williamson</td>
+                      <td>Integration Specialist</td>
+                      <td>New York</td>
+                      <td>61</td>
+                      <td>2012/12/02</td>
+                      <td><center><i class="fas fa-file-download"></i> 14 Mb</center></td>
+                    </tr>
+                    <tr>
+                      <td>Herrod Chandler</td>
+                      <td>Sales Assistant</td>
+                      <td>San Francisco</td>
+                      <td>59</td>
+                      <td>2012/08/06</td>
+                      <td><center><i class="fas fa-file-download"></i> 14 Mb</center></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
                 </div>
               </div>
             </div>
 
-          
-          </div>
-		  <div class="row">
-            <div class="col-lg-12">
+            <!-- Pie Chart -->
+            <div class="col-xl-4 col-lg-5">
               <div class="card shadow mb-4">
+                <!-- Card Header - Dropdown -->
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h6 class="m-0 font-weight-bold text-primary">Documentos disponibles de ###</h6>
+                  <h6 class="m-0 font-weight-bold text-primary">Publicidad</h6>
                 </div>
                 <!-- Card Body -->
                 <div class="card-body">
-				  No hay documentos disponibles. <a href="subir.html">¿Quieres subir uno?</a>
+                  <a src="#" target="_blank" ><img src="https://via.placeholder.com/500" style="width:100%" /></a>
+				  ¿Quieres mostrar algo aqui? Consulta la sección <a href="publicidad.html">Publicidad</a>
                 </div>
               </div>
             </div>
           </div>
-		  </form>
         </div>
         <!-- /.container-fluid -->
 
