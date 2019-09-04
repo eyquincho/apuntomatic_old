@@ -143,12 +143,12 @@
 
           <div class="row">
 
-            <!-- Area Chart -->
+            <!-- Archivos subidos -->
             <div class="col-xl-8 col-lg-7">
               <div class="card shadow mb-4">
                 <!-- Card Header - Dropdown -->
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h6 class="m-0 font-weight-bold text-primary">Última actividad </h6>
+                  <h6 class="m-0 font-weight-bold text-primary">Ranking por Archivos subidos</h6>
                 </div>
                 <!-- Card Body -->
                 <div class="card-body">
@@ -156,80 +156,44 @@
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                   <thead>
                     <tr>
-                      <th>Doc</th>
                       <th>Usuario</th>
-                      <th>Documento</th>
-                      <th>Asignatura</th>
-                      <th>Titulación</th>
-                      <th>Enlace</th>
+                      <th>Numero de archivos subidos</th>
                     </tr>
                   </thead>
                   <tfoot>
                     <tr>
-                      <th>Doc</th>
                       <th>Usuario</th>
-                      <th>Documento</th>
-                      <th>Asignatura</th>
-                      <th>Titulación</th>
-                      <th>Enlace</th>
+                      <th>Numero de archivos subidos</th>
                     </tr>
                   </tfoot>
                   <tbody>
                     <tr>
                       <td>Tiger Nixon</td>
                       <td>System Architect</td>
-                      <td>Edinburgh</td>
-                      <td>61</td>
-                      <td>2011/04/25</td>
-                      <td><center><i class="fas fa-file-download"></i> 14 Mb</center></td>
                     </tr>
                     <tr>
                       <td>Garrett Winters</td>
                       <td>Accountant</td>
-                      <td>Tokyo</td>
-                      <td>63</td>
-                      <td>2011/07/25</td>
-                      <td><center><i class="fas fa-file-download"></i> 14 Mb</center></td>
                     </tr>
                     <tr>
                       <td>Ashton Cox</td>
                       <td>Junior Technical Author</td>
-                      <td>San Francisco</td>
-                      <td>66</td>
-                      <td>2009/01/12</td>
-                      <td><center><i class="fas fa-file-download"></i> 14 Mb</center></td>
                     </tr>
                     <tr>
                       <td>Cedric Kelly</td>
                       <td>Senior Javascript Developer</td>
-                      <td>Edinburgh</td>
-                      <td>22</td>
-                      <td>2012/03/29</td>
-                      <td><center><i class="fas fa-file-download"></i> 14 Mb</center></td>
                     </tr>
                     <tr>
                       <td>Airi Satou</td>
                       <td>Accountant</td>
-                      <td>Tokyo</td>
-                      <td>33</td>
-                      <td>2008/11/28</td>
-                      <td><center><i class="fas fa-file-download"></i> 14 Mb</center></td>
                     </tr>
                     <tr>
                       <td>Brielle Williamson</td>
                       <td>Integration Specialist</td>
-                      <td>New York</td>
-                      <td>61</td>
-                      <td>2012/12/02</td>
-                      <td><center><i class="fas fa-file-download"></i> 14 Mb</center></td>
                     </tr>
                     <tr>
                       <td>Herrod Chandler</td>
                       <td>Sales Assistant</td>
-                      <td>San Francisco</td>
-                      <td>59</td>
-                      <td>2012/08/06</td>
-                      <td><center><i class="fas fa-file-download"></i> 14 Mb</center></td>
                     </tr>
                   </tbody>
                 </table>
@@ -237,7 +201,123 @@
                 </div>
               </div>
             </div>
-
+			<!-- Archivos descargados -->
+            <div class="col-xl-8 col-lg-7">
+              <div class="card shadow mb-4">
+                <!-- Card Header - Dropdown -->
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h6 class="m-0 font-weight-bold text-primary">Ranking por descargas</h6>
+                </div>
+                <!-- Card Body -->
+                <div class="card-body">
+                  <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                  <thead>
+                    <tr>
+                      <th>Usuario</th>
+                      <th>Numero de descargas de sus archivos</th>
+                    </tr>
+                  </thead>
+                  <tfoot>
+                    <tr>
+                      <th>Usuario</th>
+                      <th>Numero de descargas de sus archivos</th>
+                    </tr>
+                  </tfoot>
+                  <tbody>
+                    <tr>
+                      <td>Tiger Nixon</td>
+                      <td>System Architect</td>
+                    </tr>
+                    <tr>
+                      <td>Garrett Winters</td>
+                      <td>Accountant</td>
+                    </tr>
+                    <tr>
+                      <td>Ashton Cox</td>
+                      <td>Junior Technical Author</td>
+                    </tr>
+                    <tr>
+                      <td>Cedric Kelly</td>
+                      <td>Senior Javascript Developer</td>
+                    </tr>
+                    <tr>
+                      <td>Airi Satou</td>
+                      <td>Accountant</td>
+                    </tr>
+                    <tr>
+                      <td>Brielle Williamson</td>
+                      <td>Integration Specialist</td>
+                    </tr>
+                    <tr>
+                      <td>Herrod Chandler</td>
+                      <td>Sales Assistant</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+                </div>
+              </div>
+            </div>
+			
+			<!-- Votos recibidos -->
+            <div class="col-xl-8 col-lg-7">
+              <div class="card shadow mb-4">
+                <!-- Card Header - Dropdown -->
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h6 class="m-0 font-weight-bold text-primary">Ranking por Votos recibidos</h6>
+                </div>
+                <!-- Card Body -->
+                <div class="card-body">
+                  <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                  <thead>
+                    <tr>
+                      <th>Usuario</th>
+                      <th>Votos recibidos</th>
+                    </tr>
+                  </thead>
+                  <tfoot>
+                    <tr>
+                      <th>Usuario</th>
+                      <th>Votos recibidos</th>
+                    </tr>
+                  </tfoot>
+                  <tbody>
+                    <tr>
+                      <td>Tiger Nixon</td>
+                      <td>System Architect</td>
+                    </tr>
+                    <tr>
+                      <td>Garrett Winters</td>
+                      <td>Accountant</td>
+                    </tr>
+                    <tr>
+                      <td>Ashton Cox</td>
+                      <td>Junior Technical Author</td>
+                    </tr>
+                    <tr>
+                      <td>Cedric Kelly</td>
+                      <td>Senior Javascript Developer</td>
+                    </tr>
+                    <tr>
+                      <td>Airi Satou</td>
+                      <td>Accountant</td>
+                    </tr>
+                    <tr>
+                      <td>Brielle Williamson</td>
+                      <td>Integration Specialist</td>
+                    </tr>
+                    <tr>
+                      <td>Herrod Chandler</td>
+                      <td>Sales Assistant</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+                </div>
+              </div>
+            </div>
             <!-- Pie Chart -->
             <div class="col-xl-4 col-lg-5">
               <div class="card shadow mb-4">
