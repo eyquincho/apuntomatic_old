@@ -1,27 +1,4 @@
 <section class="content-section <!--video-section hidden-xs hidden-sm-->">
-<<<<<<< HEAD
-	<!-- Pared posters -->
-<?php if (isset($_GET['log_er'])) {
-	echo "<div class=\"alert alert-warning\" role=\"alert\" style=\"margin-top:20px;\">Datos de inicio de sesi&oacute;n err&oacute;neos. <a href='javascript:history.back();'>Reintentar</a> o <a data-toggle=\"modal\" data-target=\"#recuperar\">Recupera tu contraseña</a></div>";
-        }
-	else {}
-	if (isset($_GET['rec_er'])) {
-		$i=$_GET['rec_er'];
-		switch ($i) {
-			case 1:
-				echo "<div class=\"alert alert-warning\" role=\"alert\">El email ".$_POST['correo']." no pertenece a ningún usuario. <a data-toggle=\"modal\" data-target=\"#recuperar\">Reintentar</a></div>";
-				break;
-			case 2:
-				echo "<div class=\"alert alert-warning\" role=\"alert\">No se ha podido enviar el email. <a data-toggle=\"modal\" data-target=\"#recuperar\">Reintentar</a></div>";
-				break;
-			case 3:
-				echo "<div class=\"alert alert-success\" role=\"alert\">La nueva contraseña ha sido enviada al email asociado al usuario ".$usuario_nombre.". Si no aparece en tu bandeja de entrada, revisa la bandeja de Spam.</div>";
-				break;
-		}
-	}
-	else {}
-?>
-=======
 	<!--<div class="col-lg-12"><center>
 			<script type="text/javascript">
 				imagen = new Array();
@@ -48,7 +25,7 @@
 			</div>
 		</div> -->
 	<!-- Espacio elecciones FCSC -->
->>>>>>> master
+
 	<style>
 		.muro {
 			background-color: #805940;
@@ -67,7 +44,31 @@
 		
 	</style>
 	<div class="row muro">
+	
 	  <div class="container fila">
+	  <?php if (isset($_GET['log_er'])) {
+			echo "<div class=\"alert alert-warning\" role=\"alert\" style=\"margin-top:20px;\">Datos de inicio de sesi&oacute;n err&oacute;neos. <a href='javascript:history.back();'>Reintentar</a> o <a data-toggle=\"modal\" data-target=\"#recuperar\">Recupera tu contraseña</a></div>";
+				}
+			else {}
+			if (isset($_GET['rec_er'])) {
+				$i=$_GET['rec_er'];
+				switch ($i) {
+					case 1:
+						echo "<div class=\"alert alert-warning\" role=\"alert\">El email ".$_POST['correo']." no pertenece a ningún usuario. <a data-toggle=\"modal\" data-target=\"#recuperar\">Reintentar</a></div>";
+						break;
+					case 2:
+						echo "<div class=\"alert alert-warning\" role=\"alert\">No se ha podido enviar el email. <a data-toggle=\"modal\" data-target=\"#recuperar\">Reintentar</a></div>";
+						break;
+					case 3:
+						echo "<div class=\"alert alert-success\" role=\"alert\">La nueva contraseña ha sido enviada al email asociado al usuario ".$usuario_nombre.". Si no aparece en tu bandeja de entrada, revisa la bandeja de Spam.</div>";
+						break;
+					case 4:
+						echo "<div class=\"alert alert-success\" role=\"alert\">Has borrado correctamente tu cuenta. Au revoir!</div>";
+						break;
+				}
+			}
+			else {}
+		?>
 		  <div class="col-md-3">
 			  <a href="#" target="_blank"><img src="img/publi/poster.png" class="poster"></a>
 		  </div>
@@ -82,11 +83,7 @@
 		  </div>
 	  </div>
 	</div>   
-<<<<<<< HEAD
-	<!-- Fin pared posters -->
-=======
 	<!-- Fin espacio elecciones FCSC -->
->>>>>>> master
 	
 </section>
 <!-- <section class="hidden-md hidden-lg">
