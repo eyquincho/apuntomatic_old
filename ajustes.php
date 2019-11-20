@@ -1,4 +1,4 @@
-﻿<?php @session_start();
+<?php @session_start();
 	if(!isset($_SESSION['nick'])){
 		header("Location: index.php");
 		die();
@@ -6,7 +6,31 @@
 		include_once("includes/conexionDB.php");
 		conexionDB();// comprobamos que la sesión está iniciada	
 		}
-?>
+	function delete_account(){
+	//Borrado de cuenta
+		if(isset($_POST['enviar_borrado'])){
+		if(isset($_POST['confirmar_borrado'])) {
+			$password=$_POST['clave_borrado'];
+			$password = MD5(stripslashes($password));
+			$pet_oldkey2 = mysqli_query($_SESSION['con'], "SELECT user_pass FROM `ap_users` WHERE `user_nick` = '". $_SESSION['nick'] . "'");
+			$oldkey2 = mysqli_fetch_object($pet_oldkey2);
+			if ($oldkey2->user_pass != $password){
+				echo "<div class=\"alert alert-danger\" role=\"alert\">La contraseña no es correcta.</div>";
+			}
+			else {
+				mysqli_query($_SESSION['con'], "DELETE FROM `ap_users` WHERE `user_nick` = '".$_SESSION['nick']."'");
+				session_destroy();
+				echo "<script language=\"javascript\">
+				window.location.href=\"index.php?rec_er=4\";
+				</script>";
+			}
+		} 
+			else {
+				echo "<div class=\"alert alert-danger\" role=\"alert\">No has confirmado que quieres borrar tu cuenta.</div>";
+			}
+		}else{}
+	}
+	?>
 <!DOCTYPE html>
 <html lang="es">
   <head>
@@ -28,7 +52,9 @@
 	</style>
   </head>
   <body>
-  <?php include_once("includes/analytics.php");	?>
+  <?php include_once("includes/analytics.php");?>
+  
+
   <div id="wrapper" style="margin-top:20px;">
 		<?php 
 			include 'header.php';
@@ -37,6 +63,7 @@
 			$id_sesion = $row["ID"];
 			$nick_sesion = $row["user_nick"];
 			$nom_sesion = $row["user_name"];
+			$pass_sesion = $row["user_pass"];
 			$freg_sesion = $row["user_registered"];
 			$sub_sesion = $row["user_files"];
 			$desc_sesion = $row["user_downloads"];
@@ -86,14 +113,45 @@
 					</div>
 						<input type="submit" name="enviar" value="Enviar" class="btn btn-primary btn-lg btn-block"/>
 				</form> 
- </div>
+				<?php delete_account(); ?>
+				Si buscas cómo eliminar tu cuenta, haz <a data-toggle="modal" data-target="#borrar-cuenta">clic aqui</a>
+				</div>
              <!-- /. PAGE INNER  -->
+			 
+				<div class="modal fade" id="borrar-cuenta" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+								<h4 class="modal-title" id="myModalLabel">Eliminar cuenta</h4>
+							</div>
+							<div class="modal-body">
+							No estás aqui secuestrada/o, si deseas eliminar tu cuenta no tienes más que insertar tu contraseña en el campo de abajo, y automáticamente se borrarán tus datos de Apuntomatic.</br>
+							<strong>Ten en cuenta que esta acción es irreversible.</strong>
+							<form class="form center-block" action="<?=$_SERVER['PHP_SELF']?>" method="post">
+								<div class="form-group">
+									<input type="password" class="form-control input-lg" name="clave_borrado"  placeholder="Confirma el borrado con tu contraseña">
+								</div>
+								<div class="form-group form-check">
+									<input type="checkbox" class="form-check-input" value="confirmar" name="confirmar_borrado" id="confirmar_borrado">
+									<label class="form-check-label" for="confirmar_borrado">Confirmo que quiero eliminar mi cuenta</label>
+								</div>
+								<input type="submit" name="enviar_borrado" value="Borrar Cuenta" class="btn btn-primary btn-lg btn-block"/>
+							</form>
+							
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+							</div>
+						</div>
+					</div>
+				</div>
     </div>
          <!-- /. PAGE WRAPPER  -->
         </div>
 		<?php 
-include "footer.php";
-?>
+		include "footer.php";
+		?>
   </body>
   <!-- jS
     ================================================== -->
